@@ -1,0 +1,47 @@
+/* 
+  - Configuration Variables 
+*/
+:root {
+  --theme-primary-color: #fd5f00;
+}
+
+.MuiFormHelperText-root.MuiFormHelperText-contained {
+  margin-left: 0;
+}
+
+.MuiChip-root {
+  height: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.MuiChip-label {
+  white-space: initial !important;
+}
+
+.d-flex{
+  display: flex !important;
+}
+
+body .p_box{
+  position: relative;
+  padding-left: 20px;
+}
+
+body .p_box span.cmn_check{
+  width: 20px;
+    height: 20px;
+    color: #fff;
+    background-color: #0780da;
+    font-size: 12px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+}
+
+.p_box p{
+  max-width: 90%;
+}
